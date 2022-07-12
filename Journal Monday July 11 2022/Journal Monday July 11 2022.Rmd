@@ -1,0 +1,24 @@
+---
+title: "Journal"
+author: "Pedro Gaxiola"
+date: '2022-07-11'
+output: 
+  html_document:
+    toc: true # table of content true
+    toc_depth: 3  # upto three depths of headings (specified by #, ## and ###)
+    toc_float: true
+    number_sections: true  ## if you want number sections at each table header
+    theme: spacelab  # many options for theme, this one is my favorite.
+    highlight: tango  # specifies the syntax highlighting style
+---
+
+# Programming
+
+- Created a SVR model using three input variables to predict Max Proton Energy, given that the data contains 10% noise. The parameters were optimized using Gridsearchcv on 5% to 20% of 100_000 data points for training and the rest for testing. 
+
+# Conversations
+
+- Tom asked if I would like to meet on July Tuesday 11 2022 for updates. 
+- I asked Dr. Alona if she wanted to join us but no response. 
+
+
