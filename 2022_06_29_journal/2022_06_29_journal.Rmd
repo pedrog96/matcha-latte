@@ -1,0 +1,22 @@
+---
+title: "Journal"
+author: "Pedro Gaxiola"
+date: '2022-06-20'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Conversations
+
+* Tom:
+    * Changed the next meeting day to Tuesday July 5. 
+    
+* Dr. Alona:
+    * She would like to start meeting with Tom and I. She suggested the error would likely be at most 10 percent of the data.
+    
+# Work
+
+* I uploaded spline models with varying levels of noise to the repository, [https://github.com/pedrog96/vanilla-latte.git](https://github.com/pedrog96/vanilla-latte.git)
