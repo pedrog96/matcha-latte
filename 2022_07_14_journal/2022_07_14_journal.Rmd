@@ -1,0 +1,27 @@
+---
+title: "2022 July 14 Journal"
+author: "Pedro Gaxiola"
+date: '2022-07-14'
+output: 
+  html_document:
+    toc: true # table of content true
+    toc_depth: 3  # upto three depths of headings (specified by #, ## and ###)
+    toc_float: true
+    number_sections: true  ## if you want number sections at each table header
+    theme: spacelab  # many options for theme, this one is my favorite.
+    highlight: tango  # specifies the syntax highlighting style
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Programming 
+
+- I was able to load the csv file into a data frame. 
+- The cupy library is similar to numpy but uses GPU. 
+- The cudf library is a GPU DataFrame library for loading, joining, aggregating, filtering ... 
+- The cuml library is for implementing GPU accelerated machine learning algorithms. The api mirrors Sklearn.
+- Running the script that loads the necessary packaged takes forever.
+- When I try to fit and predict data, the svr model just returns the same constant for all values.  
+- I still do not understand the svr function in the cuml package
