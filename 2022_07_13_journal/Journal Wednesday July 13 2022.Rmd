@@ -1,0 +1,18 @@
+---
+title: "Journal Wednesday 13 2022"
+author: "Pedro Gaxiola"
+date: '2022-07-13'
+output: 
+  html_document:
+    toc: true # table of content true
+    toc_depth: 3  # upto three depths of headings (specified by #, ## and ###)
+    toc_float: true
+    number_sections: true  ## if you want number sections at each table header
+    theme: spacelab  # many options for theme, this one is my favorite.
+    highlight: tango  # specifies the syntax highlighting style
+---
+
+# Programming
+
+- I was able to find a script online that showed how to download the cuDF and cuML packages.
+- I started the process of creating a svr model, but it did not accept the data frame into cudf on the first try.
